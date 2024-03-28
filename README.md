@@ -1,4 +1,4 @@
-# Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition
+# DiTool Chat(GPT)bot
 
 DiTool is an innovative chatbot designed to streamline the process of quiz taking and provide instantaneous evaluation, leveraging the capabilities of the ChatGPT API. This advanced tool has been developed with the support of TLIC (Technology and Learning Innovation Center) at Chiang Mai University (CMU), specifically for the course "888212 Digital Tools for Entrepreneurs" offered at the International College of Digital Innovation.
 
