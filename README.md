@@ -9,7 +9,7 @@ This repository contains the code implemented as part of the research for the pa
 
 If you use this code or our findings in your research, please cite our paper as follows:
 
-```bibtex
+<!-- ```bibtex
 @article{Tepsan_Comparative_Analysis_of_2024,
   author = {Tepsan, Worawit and Watcharapinchai, Sitapa and Lueangwitchajaroen, Pitiwat and Sooksatra, Sorn},
   doi = {10.0000/00000},
@@ -20,4 +20,4 @@ If you use this code or our findings in your research, please cite our paper as 
   title = {{Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition}},
   volume = {1},
   year = {2024}
-}
+} -->
