@@ -12,12 +12,7 @@ For those interested in exploring DiTool and its features, more information can 
 
 In summary, DiTool represents a significant advancement in educational technology, offering a powerful tool for immediate quiz evaluation. Supported by TLIC, CMU, and designed for the course "888212 Digital Tools for Entrepreneurs," it exemplifies how digital innovations can enhance learning outcomes and prepare students for success in the digital age.
 
-## Overview
-
-
-## Citation
-
-If you use this code or our findings in your research, please cite our paper as follows:
+<!-- If you use this code or our findings in your research, please cite our paper as follows: -->
 
 <!-- ```bibtex
 @article{Tepsan_Comparative_Analysis_of_2024,
