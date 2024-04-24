@@ -73,7 +73,7 @@ response = client.chat.completions.create(
 For the repsonse, its structure will be as follow:
 
 ```plaintext
-ChatCompletion(
+response = ChatCompletion(
     id='chatcmpl-9HOB3QHg8wb2AWaMeHpYJnWzMLd1F',
     model='gpt-3.5-turbo-0125',
     object='chat.completion',
@@ -111,6 +111,16 @@ This breakdown helps in understanding the various components of the response fro
   - **Finish Reason**: Reason why the generation of the completion was stopped.
   - **Logprobs**: Log probabilities of the outputs (not used in this instance).
   - **Message**: The content returned by the assistant, including the role which specifies it as an 'assistant' response.
+
+### What need for users
+
+As you can see, the structure of ChatGPT response is quit complex. However, what user really need is th Message which can only use the line
+
+```python
+message_response_to_user = completion.choices[0].message.content
+```
+
+which the return as "For a one-year-old child, it is important to provide a variety of nutritious foods to support their growth and development. Some good food options for a one-year-old child include:\n\n1. Soft fruits such as mashed bananas, avocado, or cooked apples\n2. Soft cooked vegetables like sweet potatoes, carrots, and peas\n3. Whole grain cereals and bread\n4. Protein sources like soft-cooked eggs, tofu, or finely minced meat or poultry\n5. Dairy products such as whole milk, yogurt, or cheese\n6. Iron-rich foods like fortified cereals, beans, and lentils\n7. Small pieces of soft fruit or vegetables for self-feeding practice\n\nIt is important to introduce a variety of textures and flavors to help your child develop healthy eating habits. Additionally, always make sure the food is cut into small, manageable pieces to prevent choking hazards. Be sure to consult with your child's pediatrician for more personalized dietary recommendations."
 
 
 
