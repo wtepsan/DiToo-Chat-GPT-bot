@@ -8,15 +8,13 @@ By integrating the ChatGPT API, DiTool taps into state-of-the-art natural langua
 
 The support from TLIC, CMU underscores the institution's commitment to embracing digital innovation in education. This project serves as a testament to the potential of AI and chatbot technology in transforming traditional educational practices, making learning more accessible, engaging, and effective.
 
-For those interested in exploring DiTool and its features, more information can be found by visiting the provided link: [https://cmu.to/DiToolQuiz	](https://cmu.to/DiToolQuiz	). This link offers direct access to the chatbot, allowing educators, students, and digital innovation enthusiasts to experience firsthand the benefits of integrating AI-driven tools into the educational process.
+For those interested in exploring DiTool and its features, more information can be found by visiting the provided link: [DiTool Quiz](https://cmu.to/DiToolQuiz). This link offers direct access to the chatbot, allowing educators, students, and digital innovation enthusiasts to experience firsthand the benefits of integrating AI-driven tools into the educational process.
 
 In summary, DiTool represents a significant advancement in educational technology, offering a powerful tool for immediate quiz evaluation. Supported by TLIC, CMU, and designed for the course "888212 Digital Tools for Entrepreneurs," it exemplifies how digital innovations can enhance learning outcomes and prepare students for success in the digital age.
-
 
 ## Understanding the ChatGPT Prompt
 
 A prompt in ChatGPT is essentially a string of text that serves as an instruction for the model. This string can range from a single character to a full-length article. The clarity and specificity of a prompt are crucial, as they directly influence the effectiveness of ChatGPT's responses. A well-crafted prompt can yield precise and relevant answers, while a vague or poorly formulated prompt may lead to unsatisfactory responses.
-
 
 ## Understanding ChatGPT Integration for Developers
 
@@ -55,6 +53,9 @@ response = client.chat.completions.create(
         {"role": "user", "content": "What food one year old can eat?"}
     ],
 )
+
+# Print the response from ChatGPT
+print(response)
 ```
 
 ### Explanation of Code Components
@@ -70,11 +71,13 @@ response = client.chat.completions.create(
 
 ### ChatGPT API Response Structure
 
-For the repsonse, its structure will be as follow:
+For the response, its structure will be as follows:
 
 ```plaintext
 response = ChatCompletion(
-    id='chatcmpl-9HOB3QHg8wb2AWaMeHpYJnWzMLd1F',
+    id='chatcmpl-9HOB3QHg8wb2
+
+AWaMeHpYJnWzMLd1F',
     model='gpt-3.5-turbo-0125',
     object='chat.completion',
     created=1713931541,
@@ -98,33 +101,23 @@ response = ChatCompletion(
 )
 ```
 
-This breakdown helps in understanding the various components of the response from the ChatGPT API:
+### What Users Really Need
 
-- **ID**: Unique identifier for the completion.
-- **Model**: Specifies the ChatGPT model version used for generating the response.
-- **Object**: Type of the API object.
-- **Created**: Timestamp when the response was generated.
-- **System Fingerprint**: System-specific identifier.
-- **Usage**: Tokens usage details including completion, prompt, and total tokens.
-- **Choices**: Contains the response messages. Each choice includes:
-  - **Index**: Position of the choice.
-  - **Finish Reason**: Reason why the generation of the completion was stopped.
-  - **Logprobs**: Log probabilities of the outputs (not used in this instance).
-  - **Message**: The content returned by the assistant, including the role which specifies it as an 'assistant' response.
-
-### What need for users
-
-As you can see, the structure of ChatGPT response is quit complex. However, what user really need is th Message which can only use the line
+As you can see, the structure of a ChatGPT response is quite complex. However, what users really need is the message which can be obtained using the line:
 
 ```python
-message_response_to_user = completion.choices[0].message.content
+message_response_to_user = response.choices[0].message.content
 ```
 
-which the return as 
+which returns as:
 
 ```plaintext
 For a one-year-old child, it is important to provide a variety of nutritious foods to support their growth and development. Some good food options for a one-year-old child include:\n\n1. Soft fruits such as mashed bananas, avocado, or cooked apples\n2. Soft cooked vegetables like sweet potatoes, carrots, and peas\n3. Whole grain cereals and bread\n4. Protein sources like soft-cooked eggs, tofu, or finely minced meat or poultry\n5. Dairy products such as whole milk, yogurt, or cheese\n6. Iron-rich foods like fortified cereals, beans, and lentils\n7. Small pieces of soft fruit or vegetables for self-feeding practice\n\nIt is important to introduce a variety of textures and flavors to help your child develop healthy eating habits. Additionally, always make sure the food is cut into small, manageable pieces to prevent choking hazards. Be sure to consult with your child's pediatrician for more personalized dietary recommendations.
 ```
+```
+
+This structured markdown is formatted for GitHub and provides clear, informative content for developers, educators, and students interested in the capabilities of the DiTool Chat(GPT)bot and the underlying technology.
+
 
 
 <!-- If you use this code or our findings in your research, please cite our paper as follows: -->
