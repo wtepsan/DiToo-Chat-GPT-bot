@@ -114,11 +114,6 @@ which returns as:
 ```plaintext
 For a one-year-old child, it is important to provide a variety of nutritious foods to support their growth and development. Some good food options for a one-year-old child include:\n\n1. Soft fruits such as mashed bananas, avocado, or cooked apples\n2. Soft cooked vegetables like sweet potatoes, carrots, and peas\n3. Whole grain cereals and bread\n4. Protein sources like soft-cooked eggs, tofu, or finely minced meat or poultry\n5. Dairy products such as whole milk, yogurt, or cheese\n6. Iron-rich foods like fortified cereals, beans, and lentils\n7. Small pieces of soft fruit or vegetables for self-feeding practice\n\nIt is important to introduce a variety of textures and flavors to help your child develop healthy eating habits. Additionally, always make sure the food is cut into small, manageable pieces to prevent choking hazards. Be sure to consult with your child's pediatrician for more personalized dietary recommendations.
 ```
-```
-
-This structured markdown is formatted for GitHub and provides clear, informative content for developers, educators, and students interested in the capabilities of the DiTool Chat(GPT)bot and the underlying technology.
-
-
 
 <!-- If you use this code or our findings in your research, please cite our paper as follows: -->
 
