@@ -55,9 +55,6 @@ response = client.chat.completions.create(
         {"role": "user", "content": "What food one year old can eat?"}
     ],
 )
-
-# Print the response from ChatGPT
-print(response)
 ```
 
 ### Explanation of Code Components
@@ -71,10 +68,49 @@ print(response)
   - **Role**: Defines the role of each message (`system` for context setting, `user` for query).
   - **Content**: The actual text of each message.
 
-### Conclusion
+### ChatGPT API Response Structure
 
-This setup allows developers to send context-specific queries to ChatGPT and receive responses that are tailored to the provided scenario, useful for applications requiring conversational AI capabilities.
+For the repsonse, its structure will be as follow:
+
+```plaintext
+ChatCompletion(
+    id='chatcmpl-9HOB3QHg8wb2AWaMeHpYJnWzMLd1F',
+    model='gpt-3.5-turbo-0125',
+    object='chat.completion',
+    created=1713931541,
+    system_fingerprint='fp_c2295e73ad',
+    usage=CompletionUsage(
+        completion_tokens=193,
+        prompt_tokens=28,
+        total_tokens=221
+    ),
+    choices=[
+        Choice(
+            index=0,
+            finish_reason='stop',
+            logprobs=None,
+            message=ChatCompletionMessage(
+                content="For a one-year-old child, it is important to provide a variety of nutritious foods to support their growth and development. Some good food options for a one-year-old child include:\n\n1. Soft fruits such as mashed bananas, avocado, or cooked apples\n2. Soft cooked vegetables like sweet potatoes, carrots, and peas\n3. Whole grain cereals and bread\n4. Protein sources like soft-cooked eggs, tofu, or finely minced meat or poultry\n5. Dairy products such as whole milk, yogurt, or cheese\n6. Iron-rich foods like fortified cereals, beans, and lentils\n7. Small pieces of soft fruit or vegetables for self-feeding practice\n\nIt is important to introduce a variety of textures and flavors to help your child develop healthy eating habits. Additionally, always make sure the food is cut into small, manageable pieces to prevent choking hazards. Be sure to consult with your child's pediatrician for more personalized dietary recommendations.",
+                role='assistant'
+            )
+        )
+    ]
+)
 ```
+
+This breakdown helps in understanding the various components of the response from the ChatGPT API:
+
+- **ID**: Unique identifier for the completion.
+- **Model**: Specifies the ChatGPT model version used for generating the response.
+- **Object**: Type of the API object.
+- **Created**: Timestamp when the response was generated.
+- **System Fingerprint**: System-specific identifier.
+- **Usage**: Tokens usage details including completion, prompt, and total tokens.
+- **Choices**: Contains the response messages. Each choice includes:
+  - **Index**: Position of the choice.
+  - **Finish Reason**: Reason why the generation of the completion was stopped.
+  - **Logprobs**: Log probabilities of the outputs (not used in this instance).
+  - **Message**: The content returned by the assistant, including the role which specifies it as an 'assistant' response.
 
 
 
