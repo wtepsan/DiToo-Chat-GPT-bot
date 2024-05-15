@@ -1,0 +1,29 @@
+1. How would you rate the classroom activities on a scale of 1 to 5?
+AAA
+
+2. Do you feel the activities helped you understand the topics better? Please explain your answer.
+BBB
+
+3. Did the activities encourage you to participate more actively than usual?
+CCC
+
+4. How comfortable did you feel participating in the activities?
+DDD
+
+5. What challenges, if any, did you face during the activities?
+EEE
+
+6. Have the overall activities increased your interest in the subject? Why or why not?
+FFF
+
+7. How motivated do you feel to learn more about the topics after participating in the activities?
+GGG
+
+8. How well did the instructor facilitate the activities?
+HHH
+
+9. Do you have any suggestions for the instructor on how to improve future activities?
+III
+
+10. Is there anything else you'd like to share about your experience with the class activities?
+AAA
