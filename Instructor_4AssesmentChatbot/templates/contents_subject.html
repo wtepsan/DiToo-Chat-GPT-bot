@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>888212 Fundamental Digital Tools for Entrepreneurs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body> 
+    <script>
+        function shuffle(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+            return array;
+        }
+    
+        function rainbowText() {
+            var text = document.querySelector('h2');
+            var rainbowColors = ['#FF0000', '#FF7F00', '#0000FF', '#4B0082', '#9400D3']; // Define rainbow colors
+            rainbowColors = shuffle(rainbowColors); // Shuffle the rainbow colors array
+            var textContent = text.textContent;
+            text.innerHTML = ''; // Clear existing text
+            for (var i = 0; i < textContent.length; i++) {
+                var charSpan = document.createElement('span'); // Create a span for each character
+                charSpan.textContent = textContent[i];
+                charSpan.style.color = rainbowColors[i % rainbowColors.length]; // Assign color from shuffled rainbow colors
+                text.appendChild(charSpan);
+            }
+        }
+    
+        window.onload = rainbowText; // Call rainbowText function when the window loads
+    </script>
+
+    <div class="main-container">
+        <div class="logo">
+            <img src="images/logoCMU.png" alt="CMU Logo">
+            <img src="images/logoTLIC.png" alt="CMU Logo">
+            <img src="images/logoICDI.png" alt="CMU Logo">
+        </div>
+        <h1>DiTool Chatbot: QUIZ</h1>
+        <div>
+            <h2>Fundamental Digital Tools for Entrepreneurs (888212)</h2>
+        </div>
+        <div class="welcomestudent"> 
+            <p class="welcometext"> 
+                <span class="topic">ID:</span> <span class="student-id">{{studentID}}</span><br>
+                <span class="topic">Name:</span> <span class="student-name">{{studentName}}</span>
+            </p>
+        </div>
+        <div id="courseContent">
+            <!-- Chapters and subsections will be here -->
+        </div>
+    </div> 
+
+    <script>
+        const studentID = "{{ studentID }}"; // Assuming server-side replacement
+        const studentName = "{{ studentName }}"; // Assuming server-side replacement
+    </script>
+    <script src="script/script.js"></script>
+</body>
+</html>

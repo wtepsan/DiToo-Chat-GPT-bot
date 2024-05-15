@@ -1,0 +1,7 @@
+Question: List 6 steps of problem-solving
+Answer: Gathering data
+Priorities the information 
+Evaluation: Marks: 1/10
+
+Feedback: It seems you have not fully understood the question, as it asked for the six steps of problem-solving and not just any steps. You also only provided two possible steps, of which one could potentially be an aspect of step 2, determining the causes of a problem, if done properly. However, you haven't mentioned anything about defining a problem, finding solutions, implementing and evaluating them. Make sure that you not only provide the correct number of answers, but also that those answers correspond directly to the question. Consistency and specifics are crucial in accurately responding to such questions.
+

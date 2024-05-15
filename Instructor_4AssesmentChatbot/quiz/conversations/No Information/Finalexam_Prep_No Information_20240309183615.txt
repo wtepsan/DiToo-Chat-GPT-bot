@@ -1,0 +1,12 @@
+Question: List all 7 chapters of the course 888212
+Answer: Intro, money, time, team, customer, marketing, design
+Evaluation: Marks: 6/10
+
+Feedback: The response made a good attempt to summarize the names of all chapters for course 888212. However, full credit cannot be given as the response did not accurately represent the full titles of the chapters and lacks clarity, especially in framing the course chapters as 'money', 'time' etc. It's recommended to use precise chapter names as stated or provided in the course material, ensuring clarity and full understanding. Next time, avoid shortcuts and make sure to state the full and correct titles.
+
+Question: What content from the class you think you can learn to apply in your futuer?.
+Answer: I don't know
+Evaluation: Marks: 10/10
+
+Feedback: Thank you for your honesty. It can take a bit of time to see how the content of this class will apply to your future. I encourage you to continue contemplating this question as you progress further in the subject matter.
+

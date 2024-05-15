@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>DiToo: TA for 888212</title>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+
+ </head>
+ <body>
+    <script>
+        function shuffle(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+            return array;
+        }
+    
+        function rainbowText() {
+            var text = document.querySelector('h2');
+            var rainbowColors = ['#FF0000', '#FF7F00', '#0000FF', '#4B0082', '#9400D3']; // Define rainbow colors
+            rainbowColors = shuffle(rainbowColors); // Shuffle the rainbow colors array
+            var textContent = text.textContent;
+            text.innerHTML = ''; // Clear existing text
+            for (var i = 0; i < textContent.length; i++) {
+                var charSpan = document.createElement('span'); // Create a span for each character
+                charSpan.textContent = textContent[i];
+                charSpan.style.color = rainbowColors[i % rainbowColors.length]; // Assign color from shuffled rainbow colors
+                text.appendChild(charSpan);
+            }
+        }
+    
+        window.onload = rainbowText; // Call rainbowText function when the window loads
+    </script>
+    <div class="main-container">
+        <div class="logo"> 
+            <img src="images/logoCMU.png" alt="CMU Logo">
+            <img src="images/logoTLIC.png" alt="CMU Logo">
+            <img src="images/logoICDI.png" alt="CMU Logo">
+        </div>   
+        <h1><b>DiToo Chatbot: QUIZ</b></h1>
+        <div>
+            <h2>Fundamental Digital Tools for Entrepreneurs (888212)</h2>
+        </div>
+        <div class="welcomestudent">
+            <p class="welcometext"> 
+                Chapter: <span class="fancy" id="chapter"> <b> {{chapter}}</b> </span> <br>
+                Quiz Number: <span class="fancy" id="section"> <b> {{section}}</b> </span> <br>
+                Topic: <span class="fancy" id="section"> <b> {{topic}} </b> </span> <br>
+                Student ID: <span class="fancy" id="studentID"> <b>{{student_ID}}</b> </span> <br>
+                Student Name: <span class="fancy" id="studentName"> <b>{{student_name}}</b> </span> <br> 
+                Quiz ID: <span class="fancy" id="quizID"> <b>{{conversation_ID}}</b> </span> <br>
+                There are <span class="underline" id="questionNumber">{{question_N}} questions</span> to answer. Are you ready for the questions? Let's GO!
+            </p>  
+        </div>
+        <div class="messages" id="messages" style="color: green">
+            <strong>DiToo: (Q1) {{initial_question}} </strong>
+        </div>
+        <div> 
+            <textarea id="user_input" rows="3" placeholder="Your Answer ..."></textarea>
+        </div>
+        <!-- <div class="submit-btn">
+            <button onclick="submitQuery()">Submit</button>
+        </div> -->
+        <button type="submit" class="submit-btn" onclick="submitQuery()">Submit</button>
+    </div>
+
+    <script> 
+        chapter = "{{chapter}}";
+        section = "{{section}}"
+        topic = "{{topic}}"
+        studentID = "{{student_ID}}";
+        studentName ="{{student_name}}";
+        conversationID = "{{conversation_ID}}";  
+        questionN = {{question_N}};
+        const questionOrder = {{question_order|tojson}};
+        questionNow = 0;
+
+        async function submitQuery() {
+
+            document.querySelector('.submit-btn').disabled = true;
+
+            let userInput = document.getElementById("user_input");
+            let messages = document.getElementById("messages");
+
+            const response = await fetch("./response_evaluation", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    user_input: userInput.value, 
+                    chapter: chapter, 
+                    section: section, 
+                    question_N: questionN,
+                    student_ID: studentID, 
+                    student_name: studentName, 
+                    conversation_ID: conversationID, 
+                    question_order: questionOrder, 
+                    question_now: questionNow,
+                })
+            }); 
+
+            if (response.ok) {
+                const jsonResponse = await response.json();
+                console.log(jsonResponse)
+                questionNow +=1;
+                if(questionNow < questionN){
+                messages.innerHTML += `<div style="color: blue"><strong>You:</strong> ${userInput.value}</div>`;
+                messages.innerHTML += `<div style="color: red"><strong>DiToo:</strong> ${jsonResponse.feedback} </div>`;
+                messages.innerHTML += `<div><hr></div>`;
+                messages.innerHTML += `<div style="color: green"><strong>DiToo: (Q${questionNow+1}) ${jsonResponse.nextquestion} </strong>  </div>`;
+                userInput.value = ""; // Clear the user input after submitting the request
+                document.querySelector('.submit-btn').disabled = false;
+            }else if(questionNow == questionN){
+                messages.innerHTML += `<div style="color: blue"><strong>You:</strong> ${userInput.value}</div>`;
+                messages.innerHTML += `<div style="color: red"><strong>DiToo:</strong> ${jsonResponse.feedback} </div>`;
+                messages.innerHTML += `<div><hr></div>`;
+                redoURL = `http://202.80.238.234:9443/quiz/?chapter=${chapter}&section=${section}&studentID=${studentID}&studentName=${studentName}&topic=${topic}`;
+                contentsURL = `http://202.80.238.234:9443/contents?&studentID=${studentID}&studentName=${studentName}`;
+                messages.innerHTML += `<div style="color: green"><strong> DiToo: Great job! That's all the questions. We hope you enjoyed. If you're satisfied with your score, you can save this page as a PDF and submit it to the assignment on Mango. Alternatively, if you wish to attempt the quiz again, <a href="${redoURL}">click here to redo the quiz</a>. Interested in more challenges? You can <a href="${contentsURL}">explore all quizzes here</a>.</strong></div>`;
+                userInput.value = ""; // Clear the user input after submitting the request
+                userInput.disabled = true;
+                messages.innerHTML += `<div style="display: flex; justify-content: center; align-items: center;"><img src="images/congrat.png" style="max-width: 100%; height: auto;"> </div>`; 
+                document.querySelector('.submit-btn').style.backgroundColor = 'gray';
+            } 
+            }
+        }
+        // Disable right-click
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        }, false);
+
+        // Disable copy
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+        }, false);
+
+        // Disable paste
+        document.addEventListener('paste', function(e) {
+            e.preventDefault();
+        }, false);
+
+     </script>
+
+ </body>
+ </html>

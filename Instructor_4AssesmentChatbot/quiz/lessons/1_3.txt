@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What distinguishes Machine Learning (ML) from traditional rule-based programming?",
+        "answer": "ML's ability to learn and improve from data without being explicitly programmed.",
+        "criteria": "Identification of autonomous learning and improvement from data (10 points)."
+    },
+    {
+        "question": "How does ML contribute to fraud detection in the finance sector?",
+        "answer": "By analyzing transaction patterns to identify and prevent fraudulent activities.",
+        "criteria": "Explanation includes analysis of patterns to prevent fraud (10 points)."
+    },
+    {
+        "question": "What is a common application of ML in customer relationship management?",
+        "answer": "Predicting potential customer churn to enable proactive retention strategies.",
+        "criteria": "Mention of churn prediction for retention strategies (10 points)."
+    },
+    {
+        "question": "How does ML aid in the field of healthcare, specifically?",
+        "answer": "Through predictive analytics in disease diagnosis and drug discovery processes.",
+        "criteria": "Identification of at least one healthcare application, like disease diagnosis or drug discovery (10 points)."
+    },
+    {
+        "question": "What role does ML play in enhancing the customer experience through marketing?",
+        "answer": "By enabling personalized recommendations and predictive analytics to optimize strategies.",
+        "criteria": "Explanation includes personalization and optimization of marketing strategies (10 points)."
+    },
+    {
+        "question": "How can entrepreneurs utilize ML for product and service innovation?",
+        "answer": "By analyzing market trends and customer data to tailor offerings and tap into new markets.",
+        "criteria": "Mention of analyzing trends and customer data for innovation (10 points)."
+    },
+    {
+        "question": "What is the significance of adaptability in ML algorithms?",
+        "answer": "It allows ML models to improve autonomously as they are exposed to new data.",
+        "criteria": "Explanation of autonomous improvement with new data exposure (10 points)."
+    },
+    {
+        "question": "In what way does ML transform team management within organizations?",
+        "answer": "Through recruitment optimization, employee engagement analysis, and performance analytics.",
+        "criteria": "Identification of at least one application in team management (10 points)."
+    },
+    {
+        "question": "What benefits does ML offer in the realm of time management?",
+        "answer": "Task prioritization, scheduling optimization, and automation of time tracking.",
+        "criteria": "Explanation includes at least one benefit like task prioritization or scheduling optimization (10 points)."
+    },
+    {
+        "question": "How does ML contribute to risk management in finance and insurance industries?",
+        "answer": "By applying algorithms to assess and manage risks, aiding in informed decision-making.",
+        "criteria": "Explanation of risk assessment and management (10 points)."
+    }
+]

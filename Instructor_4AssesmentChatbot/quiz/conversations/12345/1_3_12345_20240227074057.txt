@@ -1,0 +1,6 @@
+Question: What distinguishes Machine Learning (ML) from traditional rule-based programming?
+Answer: Machine learning use data but rule base use rule 
+Evaluation: Marks: 3/10
+
+Feedback: Your attempt to differentiate between machine learning and traditional rule-based programming was somewhat correct as you mentioned that ML uses data and rule-based programming uses rules. However, your response lacks detail and technical accuracy. Machine Learning does indeed use data, but more specifically, it uses data to learn and improve without being explicitly programmed to do so. Traditional rule-based programming, on the other hand, follows pre-set rules and does not have the capacity to learn or improve on its own. Try to provide a more comprehensive and technically accurate answer in the future.
+

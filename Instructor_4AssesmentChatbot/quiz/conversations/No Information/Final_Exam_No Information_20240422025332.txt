@@ -1,0 +1,6 @@
+Question: List 6 steps of problem-solving
+Answer: Find solution
+Evaluation: Marks: 1/10
+
+Feedback: Your response is extremely minimal and does not sufficiently address the question provided. The answer provided only relates to Step 4 of problem solving process and lacks in detail. You need to not only list all the steps, but also elaborate on what happens at each stage. Please refer to the question again and provide a more detailed, comprehensive answer.
+

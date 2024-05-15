@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* A light background color */
+        }
+
+        .welcome-container {
+            border: 2px solid #6a00ff; /* Classic blue border */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #ffffff; /* White background for the content */
+            text-align: center; /* Center aligns all content */
+            width: fit-content; /* Adjust width to fit the content */
+            max-width: 90%; /* Ensures the container doesn't get too wide on large screens */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+        }
+
+        .logo img {
+            margin: 5px 10px; /* Spacing between logos */
+            width: auto; /* Adjust width automatically */
+            height: 35px; /* Adjust height as needed */
+        }
+
+        .welcome-message h1, .welcome-message h2, .info, .submit-button {
+            margin-top: 20px; /* Space between elements */
+        }
+
+        .submit-button {
+            background-color: #007bff; /* Button color */
+            color: #ffffff; /* Text color */
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px; /* Rounded corners for the button */
+            font-size: 16px; /* Adjust font size as needed */
+        }
+
+        .submit-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="logo">
+            <img src="images/logoCMU.png" alt="CMU Logo">
+            <img src="images/logoTLIC.png" alt="CMU Logo">
+            <img src="images/logoICDI.png" alt="CMU Logo">
+        </div>
+    
+        <div class="welcome-message">
+            <h2> Course {{ state }} </h2>
+            <h1>Welcome, {{ basic_info.firstname_EN }} {{ basic_info.lastname_EN }}</h1>
+            <p class="info">Email: {{ basic_info.cmuitaccount }}</p>
+            <p class="info">ID: {{ basic_info.student_id if basic_info.student_id else 'No Information' }}</p>
+        </div>
+
+        <form action="http://202.80.238.234:9443/contents" method="post">
+            <input type="hidden" name="form_studentName" value="{{ basic_info.firstname_EN }} {{ basic_info.lastname_EN if basic_info.firstname_EN and basic_info.lastname_EN else 'No Information' }}">
+            <input type="hidden" name="form_studentID" value="{{ basic_info.student_id if basic_info.student_id else 'No Information' }}">
+            <button type="submit" class="submit-button">UNLEASH THE QUIZZES</button>
+        </form>
+    </div>
+</body>
+</html>

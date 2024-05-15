@@ -1,0 +1,12 @@
+Question: What is the first step in the Six-Step Problem Solving Model?
+Answer: ABCDE
+Evaluation: Marks: 0/10 
+
+Feedback: Your answer doesn't seem to correspond to the question asked. The first step in the Six-Step Problem Solving Model is to 'Define the problem', your response, 'ABCDE', is not clear or related. Please ensure your answer is relevant to the question in future.
+
+Question: Which technique is suggested for generating a large number of ideas during the problem definition phase?
+Answer: ABCDE
+Evaluation: Marks: 0/10
+
+Feedback: Your given answer, "ABCDE," is not correct. The question is looking for a specific technique used for generating a large number of ideas during the problem definition phase. The correct answer is "Brainstorming," a common method used in this phase. Please try to focus on the question and provide relevant information next time.
+

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "What is the first step in the Six-Step Problem Solving Model?",
+        "answer": "Define the problem",
+        "criteria": "Correct identification of the initial step as defining the problem (10 points)."
+    },
+    {
+        "question": "Which technique is suggested for generating a large number of ideas during the problem definition phase?",
+        "answer": "Brainstorming",
+        "criteria": "Correctly naming brainstorming as the suggested technique (10 points)."
+    }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DiTool Chatbot Quiz</title> 
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="input-container"> 
+    <div class="logo">
+        <img src="images/logoCMU.png" alt="CMU Logo">
+        <img src="images/logoTLIC.png" alt="CMU Logo">
+        <img src="images/logoICDI.png" alt="CMU Logo">
+    </div>
+    <div style="text-align: center;">
+        <h3 style="color: blue; font-size: 1em;">
+            <br> Welcome! Please enter your student ID and Name to begin the quiz with <br> 
+            <span style="font-weight: bold; text-decoration: underline;  color: blue;"><br>DiTool Chatbot</span>
+        </h3>
+    </div>
+    <div>
+        <form id="studentForm" action="http://202.80.238.234:9443/contents" method="post">  
+            <input type="text" id="form_studentID" name="form_studentID" required class="form-input" placeholder="Student ID" oninput="validateInteger(this)">
+            <br>
+            <input type="text" id="form_studentName" name="form_studentName" required class="form-input" placeholder="Name Lastname" />
+            <br>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    function validateInteger(input) {
+        input.value = input.value.replace(/\D+/g, '');
+    }
+
+    function validateForm() {
+            const form_studentID = document.getElementById('form_studentID').value.trim();
+            const form_studentName = document.getElementById('form_studentName').value.trim();
+            if (form_studentID === '' || form_studentName === '') {
+                alert('Both ID and Name are required!');
+                return false;
+            }
+            return true;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('studentForm');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (validateForm()) {
+                form.submit();
+            }
+        });
+
+        // Handle form submission when Enter key is pressed in input fields
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && (document.activeElement === document.getElementById('form_studentID') || document.activeElement === document.getElementById('form_studentName'))) {
+                e.preventDefault();
+                if (validateForm()) {
+                    form.submit();
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+Question: What is the first step in the Six-Step Problem Solving Model?
+Answer: Define 
+Evaluation: I would give this a score of 6.5 out of 10. While the response "Define" is on the right track, it is not complete. The full answer requires the student to indicate that the problem needs to be defined. It shows general understanding, but lacking in providing complete thought or sentence.
+
+Question: Which technique is suggested for generating a large number of ideas during the problem definition phase?
+Answer: Define
+Evaluation: Marks: 1/10
+
+Feedback: The answer you have provided does not match the correct answer. The question asks for a technique recommended for generating a large number of ideas during the problem definition phase and the correct response is 'Brainstorming'. Your answer 'Define' could possibly be part of a problem-solving methodology, but it does not accurately answer the presented question. Revision of the material is recommended.
+

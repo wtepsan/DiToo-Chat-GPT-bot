@@ -1,0 +1,6 @@
+Question: What is the first step in the Six-Step Problem Solving Model?
+Answer: Understanding requirements
+Evaluation: Marks: 4/10
+
+Feedback: While "understanding requirements" is an important part of problem-solving, it's not the first step in the Six-Step Problem Solving Model. The first step is "Define the problem" where you acknowledge that a problem exists and commit to solving it by clearly defining what it is. Understanding or gathering requirements usually comes at a later stage once the problem is clearly defined.
+

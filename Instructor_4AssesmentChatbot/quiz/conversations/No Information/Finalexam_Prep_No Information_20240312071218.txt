@@ -1,0 +1,78 @@
+Question: List all 7 chapters of the course 888212
+Answer: AAA
+Evaluation: Marks: 0/10
+
+Feedback: Your response does not address the question asked. You were supposed to list all the seven chapters of course 888212, but instead, you replied with "AAA". This is not a valid or relevant response. Please read the question carefully and try again.
+
+Question: Explain what you have learnt in Introduction
+Answer: BBB
+Evaluation: Marks: 0/10 
+
+Feedback: This response is inadequate and doesn't provide any insight into the requested subject. It is important to adequately reference the key points in the question, such as the six-step problem-solving process, digital data and tools, the importance of these tools, machine learning, and the concept of a data-driven society. You are encouraged to provide a more comprehensive answer reflecting your understanding of these topics.
+
+Question: Explain what you have learnt in Digital tools for money problems and tasks
+Answer: CCC
+Evaluation: Marks: 0/10
+
+Feedback: The response "CCC" is irrelevant and does not address the question at all. It does not provide any reflection on the learning about using digital tools for money problems and tasks such as solving budget, tax, or interest problems. Please make sure to answer the questions in full, providing specific details about the topic asked.
+
+Question: Explain what you have learnt in Digital tools for marketing
+Answer: FDerwt
+Evaluation: Marks: 0/10
+
+Feedback: The response provided is not understandable and does not address the question posed. It is important to give detailed and accurate information that explains what was learned about digital tools for marketing. The correct answer should have touched on concepts like Marketing 5.0 and 6.0, technologies for these types of marketing, and the application of Generative AI in marketing. Please remember to provide thoughtful, relevant and well-explained answers.
+
+Question: What is prompt and preprompt in ChatGPT, and why is it important?
+Answer: dsfasdafsd
+Evaluation: Marks: 0/10
+
+Feedback: The response provided doesn't address the question asked nor does it provide any relevant information related to ChatGPT, prompt, or preprompt. It appears to be complete gibberish. Please provide an answer related to the question topic next time for proper evaluation.
+
+Question: List the 5A's in marketing 5.0 and explain how to use ChatGPT in Marketing 5.0 for one of the A's?
+Answer: dfasdfasd
+Evaluation: Mark: 0/10
+
+Feedback: I'm afraid your response is not relevant to the question asked. The question required you to list the 5A's in marketing 5.0 and explain how to use ChatGPT in one of the A's. Your answer doesn't address any parts of the question. Please re-read the question and provide a relevant response.
+
+Question: Digital tools for time
+Answer: fasdfasd
+Evaluation: Marks: 0/10
+
+Feedback: The provided response is not relevant or understandable. It does not make reference to the question asked or the correct answer. Please make sure to answer the question appropriately, mentioning digital tools and how they assist with time management. It's important for responses to be clear, comprehensive, and accurate to earn marks.
+
+Question: Explain what you have learnt in Digital tools for time management
+Answer: fasdfasdfas
+Evaluation: Marks: 0/10
+
+Feedback: Your answer is not related to the question asked. It seems like you've entered random characters rather than providing a thoughtful response. The question asked about the learning in digital tools for time management. Key points to highlight could include specific tools or strategies learned, such as the 80:20 rule. Please take more time to ensure your response appropriately addresses the question.
+
+Question: Explain what you have learnt in Digital tools for team management
+Answer: fdsafasdf
+Evaluation: Marks: 0/10
+
+Feedback: This response is inappropriate and incorrect. It seems like nonsensical text and doesn't address the question asked regarding Digital tools for team management. In future, please ensure your answers are relevant to the topic and provide a clear understanding of your knowledge on the area.
+
+Question: Explain what you have learnt in Digital tools for managing customers
+Answer: fsdafawerasdfas
+Evaluation: Marks: 0/10
+
+Feedback: Your response is incoherent and doesn't seem to relate to the given question at all. It's important to ensure you understand the question before attempting to answer. Please review the topic on Digital tools for managing customers and try again. Aim to address key points such as the basic meaning of CRM, types of CRM, and usage of ChatGPT for customers within your response.
+
+Question: Explain what you have learnt in Designing a digital tool
+Answer: fasfawerfasdfas
+Evaluation: Marks: 0/10
+
+Feedback: The response you have given is completely illegible and irrelevant to the question asked. It does not include any information about designing a digital tool using a 6-stage problem-solving process to solve a business pain point. In your future responses, ensure to provide detailed information related to the question, explaining what you have learnt in the process. Consider using specific examples or real-life scenarios for better demonstration of your understanding.
+
+Question: Explain each stage of design thinking.
+Answer: asdfawersdf
+Evaluation: Marks: 0/10
+
+Feedback: The response provided does not address the question at all. It appears to be a random string of characters rather than an explanation of the different stages of design thinking. I encourage you to focus on the question and provide accurate and meaningful responses. Next time, try to explain clearly each stage of design thinking like empathy to understand the customers, the clear definition of the problem, generating solutions, creating prototypes, and testing them.
+
+Question: What content from the class do you think you can learn to apply in your future?
+Answer: werasedfasdf
+Evaluation: Marks: 10/10
+
+Feedback: Thank you for your response. In future, try to provide some specific details from the course that you found useful or impactful.
+

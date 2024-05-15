@@ -1,0 +1,16 @@
+Question: What is the first step in the Six-Step Problem Solving Model?
+Answer: Define the problem
+Evaluation: Marks: 10/10
+
+Feedback: Excellent! Your answer is spot-on. You've correctly identified 'Define the problem' as the first step in the Six-Step Problem Solving Model. Keep it up!
+
+Question: Which technique is suggested for generating a large number of ideas during the problem definition phase?
+Answer: Brainstorming
+Evaluation: Marks: 10/10
+
+Feedback: Excellent job! Your response is completely accurate. Brainstorming is indeed the technique used for generating a multitude of ideas during the problem definition phase. Keep up the good work!
+
+Question: What is the purpose of determining the causes of the problem in the Six-Step Model?
+Answer: To understand the root causes and can fix the problem at the right point
+Evaluation: I would give the response a score of 8 out of 10. The answer correctly emphasizes the importance of understanding the root causes in order to effectively address the problem. It does, however, miss mentioning about the identification of underlying factors that contribute to the problem and the need for targeted solutions, which are significant components of the answer. Overall, it's a good response, with room for improvement.
+

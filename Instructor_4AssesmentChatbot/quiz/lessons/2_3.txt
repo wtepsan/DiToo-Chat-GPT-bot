@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the first step in the Six-Step Problem Solving Model?",
+        "answer": "Define the problem",
+        "criteria": "Correct identification of the initial step as defining the problem (10 points)."
+    },
+    {
+        "question": "Which technique is suggested for generating a large number of ideas during the problem definition phase?",
+        "answer": "Brainstorming",
+        "criteria": "Correctly naming brainstorming as the suggested technique (10 points)."
+    },
+    {
+        "question": "What is the purpose of determining the causes of the problem in the Six-Step Model?",
+        "answer": "To identify underlying factors contributing to the problem for targeted solutions.",
+        "criteria": "Explanation includes identification of underlying factors for targeted solutions (10 points)."
+    },
+    {
+        "question": "What does the fishbone diagram help to identify?",
+        "answer": "Potential causes of a problem.",
+        "criteria": "Correctly identifying that it helps to identify potential causes (10 points)."
+    },
+    {
+        "question": "How should alternative solutions be developed according to the Six-Step Model?",
+        "answer": "By generating as many solutions as possible and considering their relation to the causes and symptoms of the problem.",
+        "criteria": "Explanation includes generation of multiple solutions and consideration of their relevance (10 points)."
+    },
+    {
+        "question": "What are key considerations when selecting a solution?",
+        "answer": "Feasibility, effectiveness, practicality, and alignment with objectives.",
+        "criteria": "Mention of at least two key considerations from the list (5 points each, up to 10 points)."
+    },
+    {
+        "question": "What is important to do when implementing a solution?",
+        "answer": "Develop an implementation plan, allocate resources, communicate changes, and monitor the implementation.",
+        "criteria": "Mention of developing a plan and at least one other action from the list (2.5 points each, up to 10 points)."
+    },
+    {
+        "question": "What should be evaluated to assess the effectiveness of the implemented solution?",
+        "answer": "Whether it meets the predetermined criteria, stays within budget, and is completed on time.",
+        "criteria": "Mention of all three evaluation criteria (3.33 points each, up to 10 points)."
+    },
+    {
+        "question": "Why is evaluating the outcome an essential step in the problem-solving process?",
+        "answer": "To assess the solution’s effectiveness, learn from the process, and identify areas for improvement.",
+        "criteria": "Explanation includes assessment of effectiveness and learning process (10 points)."
+    },
+    {
+        "question": "How can brainstorming be utilized in defining the problem?",
+        "answer": "By listing all possible contexts, backgrounds, and symptoms related to the problem and discussing to clarify the core issue.",
+        "criteria": "Explanation includes listing and discussing to clarify the core issue (10 points)."
+    }
+]

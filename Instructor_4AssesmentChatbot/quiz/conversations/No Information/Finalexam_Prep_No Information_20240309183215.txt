@@ -1,0 +1,12 @@
+Question: List all 7 chapters of the course 888212
+Answer: I don't know
+Evaluation: Marks: 0/10
+
+Feedback: Unfortunately, your answer did not include any of the required information. It is essential to provide the specific chapter names when asked, instead of stating 'I don't know'. In the event that you're unsure, try your best to use the resources available to you to find the correct answers or at least attempt to provide some sort of educated guess based on the course name. Let's try to improve on this in the future.
+
+Question: Explain what you have learnt in Introduction
+Answer: About importance of digital tools
+Evaluation: Marks: 2/10
+
+Feedback: Your answer needs to provide a thorough explanation of all the main points learned, including the six-step problem-solving process, digital data and tools, the importance of digital tools, machine learning, and our data-driven society. Your response only mentions a small portion of these topics and lacks an in-depth explanation. To improve, try to discuss all the areas listed in the question with a focus on detailed descriptions and real-world applications.
+

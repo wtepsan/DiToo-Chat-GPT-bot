@@ -1,0 +1,40 @@
+Question: List 6 steps of problem-solving
+Answer: AA
+Evaluation: In absence of response AA, it's impossible to provide a mark out of 10 or feedback. Please provide the content for response AA to proceed.
+
+Question: What is digital data and examples?
+Answer: bb
+Evaluation: Marks: 0/10
+
+Feedback: The response provided does not address the question asked. It's important to explain what digital data is and to provide examples, as specified in the question. Please take the time to understand the question and provide a relevant and thorough response.
+
+Question: Give the meaning of digital tools.
+Answer: ccc
+Evaluation: Marks: 0/10
+
+Feedback: Your response "ccc" does not provide any relevant information to the question asked. It seems as if it might have been a typing mistake. Please re-read the question and give a proper reply. It is important to share detailed information about digital tools, such as their uses, examples and how they impact on various tasks or functions.
+
+Question: Define a data-driven society and explain the importance of digital tools within it.
+Answer: def
+Evaluation: Marks: 0/10
+
+Feedback: This submission unfortunately does not meet the required standard and does not show comprehension nor proper engagement with the prompt. It is too brief and only contains the abbreviation for the term "definition", without actually providing a definition or addressing the importance of digital tools in a data-driven society. For full credit, you need to provide a comprehensive answer that correctly defines a data-driven society and explains the role of digital tools therein. Please revise and resubmit your answer.
+
+Question: Define machine learning.
+Answer: efasdf
+Evaluation: Marks: 0/10
+
+Feedback: Your response is not relevant to the question asked. It's essential to provide an answer that shows an understanding of what machine learning is. Please revise the given answer or use other reputable sources to further understand the concept of machine learning and provide an accurate response.
+
+Question: Give one application of machine learning.
+Answer: edafsd
+Evaluation: Marks: 0/10
+
+Feedback: Your response is not understandable and it doesn't address the given question. It's important to provide a valid example of machine learning application. Please re-read the question and try again, ensuring your response is clear, relevant and informative.
+
+Question: How can machine learning help entrepreneurs?
+Answer: fleas
+Evaluation: Marks: 0/10
+
+Feedback: The response provided is incoherent and irrelevant to the question asked. It doesn't mention anything related to how machine learning can help entrepreneurs. It is encouraged to read the question carefully and ensure the response is applicable and provides the required detail to fully answer the question.
+

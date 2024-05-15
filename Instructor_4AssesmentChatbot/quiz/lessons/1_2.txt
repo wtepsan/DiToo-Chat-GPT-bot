@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What technological advancement has fundamentally shifted how knowledge is acquired, moving away from traditional media?",
+        "answer": "The internet.",
+        "criteria": "Correctly identify the internet as the transformative technology (10 points)."
+    },
+    {
+        "question": "What critical function does data serve in driving progress and innovation across various sectors?",
+        "answer": "Data drives innovation, improves decision-making, and transforms industries.",
+        "criteria": "Identify any two critical functions of data (5 points each, up to 10 points)."
+    },
+    {
+        "question": "Identify a widely used digital tool for conducting data analysis.",
+        "answer": "Spreadsheet software (e.g., Microsoft Excel, Google Sheets).",
+        "criteria": "Correct identification of a digital analysis tool (10 points)."
+    },
+    {
+        "question": "Why are digital tools deemed essential in leveraging the power of data for insights and decision-making?",
+        "answer": "They simplify the collection, processing, and analysis of data for actionable insights.",
+        "criteria": "Comprehensive explanation on simplification of data handling (10 points)."
+    },
+    {
+        "question": "What is considered indispensable for managing vast information efficiently in a data-centric world?",
+        "answer": "Digital tools.",
+        "criteria": "Acknowledgment of digital tools’ indispensability (10 points)."
+    },
+    {
+        "question": "What significant advantage does data utilization offer, especially in strategic contexts?",
+        "answer": "It enhances insight generation and supports informed decision-making.",
+        "criteria": "Mention of enhancing insights or supporting decisions (10 points)."
+    },
+    {
+        "question": "Which technology is pivotal for managing customer interactions and experiences?",
+        "answer": "Customer Relationship Management (CRM) Systems.",
+        "criteria": "Accurate identification of CRM technology (10 points)."
+    },
+    {
+        "question": "How do digital tools facilitate entrepreneurial endeavors?",
+        "answer": "By offering solutions for finance, time management, marketing, and problem-solving.",
+        "criteria": "Explanation includes assistance in multiple areas (10 points)."
+    },
+    {
+        "question": "Mention a platform that supports the development and deployment of AI and machine learning models.",
+        "answer": "TensorFlow, scikit-learn, IBM Watson, Azure Machine Learning.",
+        "criteria": "Correct naming of a platform (10 points)."
+    },
+    {
+        "question": "What are the primary ethical concerns associated with the use of data?",
+        "answer": "Privacy and ethical use of data.",
+        "criteria": "Recognition of privacy and ethical use as primary concerns (10 points)."
+    }
+]

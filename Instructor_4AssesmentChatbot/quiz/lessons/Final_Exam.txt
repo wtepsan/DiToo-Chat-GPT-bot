@@ -1,0 +1,32 @@
+[
+    {
+        "question": "List 6 steps of problem-solving",
+        "answer": "Step 1: Define the problem. Step 2: Determine the causes of the problem. Step 3: Develop alternative solutions. Step 4: Select a solution. Step 5: Implement the solution. Step 6: Evaluate the solution.",
+        "criteria": ""
+    },
+    {
+        "question": "What is digital data and examples?",
+        "answer": "Digital data refers to information that is stored and processed in binary format, using combinations of the digits 0 and 1 to represent text, images, audio, video, and other types of data in electronic devices.",
+        "criteria": ""
+    },
+    {
+        "question": "Give the meaning of digital tools.",
+        "answer": "Digital tools are any tools that deal with digital data, such as software, applications, or platforms that utilize digital technology to facilitate tasks, processes, or functions across various devices, such as computers, smartphones, and tablets. They aid in communication, data analysis, content creation, project management, and much more, enhancing efficiency and productivity in personal and professional settings.",
+        "criteria": ""
+    },
+    {
+        "question": "Define a data-driven society and explain the importance of digital tools within it.",
+        "answer": "A data-driven society extensively utilizes data in decision-making across sectors like government, business, healthcare, and education. It relies on data collection, analysis, and interpretation to discern trends, inform decisions, and craft policies, prioritizing evidence over intuition. Digital tools are vital in this context, enabling the management of data through collection, analysis, and facilitating better decision-making and accessibility, thereby enhancing efficiency, innovation, and overall outcomes.",
+        "criteria": ""
+    },
+    {
+        "question": "Define machine learning.",
+        "answer": "Machine learning is a branch of artificial intelligence that enables computers to learn from and make decisions based on data, without being explicitly programmed for specific tasks. It involves algorithms that improve automatically through experience.",
+        "criteria": ""
+    },
+    {
+        "question": "How can machine learning help entrepreneurs?",
+        "answer": "Entrepreneurs can use Machine Learning (ML) to enhance their competitive advantage, improve decision-making, and drive innovation across their businesses in several ways: Customer Insights: By analyzing customer data, ML tools provide insights into preferences and behaviors, aiding in the customization of products and services. Predictive Analytics: ML enables forecasting of demand and optimization of inventory, supporting strategic, data-informed decisions. Personalization: ML-driven personalization improves customer experiences through tailored recommendations and content. Process Optimization: Automating and optimizing processes with ML increases operational efficiency and allows entrepreneurs to concentrate on higher-level strategies. Risk Management: Particularly in finance and insurance, ML helps in assessing and managing risks, leading to better-informed decision-making. Innovative Products and Services: ML offers opportunities for the development of new and innovative offerings, opening up new markets and addressing evolving consumer demands.",
+        "criteria": ""
+    }
+]

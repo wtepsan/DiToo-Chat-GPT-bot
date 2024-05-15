@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .welcome-message, .info {
+            margin-bottom: 20px;
+        }
+        .submit-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-message">
+            <h2> Course {{ state }} </h2>
+            <h1>Welcome, {{ basic_info.firstname_EN }} {{ basic_info.lastname_EN }}</h1>
+            <p class="info">Email: {{ basic_info.cmuitaccount }}</p>
+            <p class="info">ID: {{ basic_info.student_id if basic_info.student_id else 'No Information' }}</p>
+        </div>
+        
+        <!-- Form to submit basic_info data -->
+        <form action="http://202.80.238.234:9443/contents" method="post">
+            <input type="hidden" name="form_studentName" value="{{ basic_info.firstname_EN }} {{ basic_info.lastname_EN if basic_info.firstname_EN and basic_info.lastname_EN else 'No Information' }}">
+            <input type="hidden" name="form_studentID" value="{{ basic_info.student_id if basic_info.student_id else 'No Information' }}">
+            <button type="submit" class="submit-button">Submit Information</button>
+        </form>
+    </div>
+</body>
+</html>

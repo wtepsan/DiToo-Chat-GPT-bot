@@ -1,0 +1,36 @@
+Question: List 6 steps of problem-solving
+Answer: dd
+Evaluation: Marks: 0/10
+
+Feedback: The response provided is not relevant or appropriate for the question asked. The question requires clear elaboration of the 6 steps of problem-solving and the response does not meet this requirement. Please take time to understand the question and provide a detailed and pertinent answer for the same.
+
+Question: What is digital data and examples?
+Answer: ddd
+Evaluation: Marks: 0/10
+
+Feedback: The response provided does not answer the question at all. It seems as if it's intentionally nonsensical or possibly an accidental typo. It's important to provide a response that at least attempts to address the question, preferably with a correct explanation and example of digital data.
+
+Question: Give the meaning of digital tools.
+Answer: ddd
+Evaluation: Marks: 0/10
+
+Feedback: Your response is not related to the question asked and does not provide any meaningful information regarding digital tools. It's important that your answers accurately and fully respond to the question. In this instance, speaking about what digital tools are, how they are used, and examples of digital tools would provide a complete and satisfactory answer.
+
+Question: Define a data-driven society and explain the importance of digital tools within it.
+Answer: dd
+Evaluation: Marks: 0/10
+
+Feedback: Your response is not adequate or relevant to the provided question. It's important to provide a comprehensive explanation of what a data-driven society is and the role digital tools play in it. Please ensure to include key details such as how a data-driven society uses data in decision-making across various sectors and how digital tools aid in the management and analysis of this data. Please refrain from using unclear abbreviations and aim to provide a full, detailed response.
+
+Question: Define machine learning.
+Answer: dd
+Evaluation: Marks: 0 out of 10
+
+Feedback: Your response is not relevant to the question asked. It seems like a typing error. Please provide a proper definition of machine learning, which should include its relation to artificial intelligence, how it enables computers to learn from data, and the role of algorithms in this process.
+
+Question: How can machine learning help entrepreneurs?
+Answer: ddd
+Evaluation: Marks: 0/10
+
+Feedback: Your response to the question "How can Machine Learning help entrepreneurs?" is unsatisfactory and irrelevant. Providing a string of non-sense characters ("ddd") does not address or answer the question in any way. Please ensure that you understand the question before answering and provide a clear, well-structured response. It should ideally detail how machine learning can aid in customer insights, predictive analytics, personalization, process optimization, risk management, and innovation.
+

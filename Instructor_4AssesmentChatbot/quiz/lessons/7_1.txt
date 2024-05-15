@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Define a Business Pain Point and provide an example.",
+        "answer": "A Business Pain Point is a specific problem that a company is facing, such as financial issues, operational inefficiencies, sales declines, customer service challenges, or technological hurdles. For example, a high customer churn rate due to poor service is a pain point.",
+        "criteria": " "
+    },
+    {
+        "question": "What are the five stages of Design Thinking?",
+        "answer": "The five stages are: 1. Empathize, 2. Define, 3. Ideate, 4. Prototype, and 5. Test.",
+        "criteria": " "
+    },
+    {
+        "question": "Give the meaning, example of method, and output of Empathize stage.",
+        "answer": "The Empathize stage aimed at understanding the users' experiences, challenges, and needs by putting aside one's own assumptions to gain deep insights into the user perspective. Example of Method: Interviews are a commonly used method in this stage, where designers engage with users to explore their thoughts, feelings, and experiences related to the product or service being designed. Output: The primary output includes user personas, empathy maps, and a comprehensive list of user needs and problems. These outputs provide a foundational understanding of the users, which informs the subsequent stages of the Design Thinking process, particularly the Define stage where the problem to be solved is articulated.",
+        "criteria": " "
+    },
+    {
+        "question": "Give the meaning, example of method, and output of Define stage.",
+        "answer": "The Define stage focuses on synthesizing the insights gathered during the Empathize stage to clearly articulate the problem you aim to solve. Example of Method: One common method used in this stage is the creation of a Problem Statement, a concise description of the issue that needs addressing. This involves analyzing the data collected from users to identify patterns or core challenges that your design efforts will address.Output: The key output of the Define stage is a clear and actionable problem statement that encapsulates the needs of the users and the challenges they face. This statement guides the design team's focus and priorities as they move into the Ideation stage, where they will generate solutions to the defined problem.",
+        "criteria": " "
+    },
+    {
+        "question": "Give the meaning, example of method, and output of Ideate stage.",
+        "answer": "This stage will generate a wide range of creative solutions to the problem defined in the previous stage. Example of Method: Brainstorming is a popular method used in this stage, where team members rapidly suggest a broad variety of ideas without judgment, encouraging creativity and out-of-the-box thinking. Output: The primary output of the Ideate stage is a diverse set of potential solutions, ideas, or concepts that address the user needs and problem statement identified earlier. These ideas are then refined and evaluated to select the most promising ones for prototyping.",
+        "criteria": " "
+    },
+    {
+        "question": "Give the meaning, example of method, and output of Prototype stage.",
+        "answer": "The Prototype stage focuses on turning ideas from the Ideate stage into tangible, testable artifacts. Example of Method: Building a Low-Fidelity Prototype, such as paper models or simple mockups, is a common approach. This method allows designers to quickly create representations of their ideas to explore and evaluate their potential. Output: The key output is a set of prototypes that embody the selected ideas. These prototypes are used to investigate the solutions' feasibility, understand how users interact with them, and gather feedback for further refinement.",
+        "criteria": " "
+    },
+    {
+        "question": "List 3 levels of Prototypes.",
+        "answer": "Low-Fidelity Prototypes, Mid-Fidelity Prototypes, High-Fidelity Prototypes",
+        "criteria": " "
+    },
+    {
+        "question": "Give the meaning, example of method, and output of Test stage.",
+        "answer": "Meaning: Put prototypes to the test with real users and get their feedback. Method: Bring your prototypes to sample of your target customer, ask them to try and get their feedbacks. Output: User feedbacks, Assumptions validation, early issue identification",
+        "criteria": " "
+    },
+    {
+        "question": "How can digital tools help with each stage of Design Thinking?",
+        "answer": "Digital tools can significantly enhance each phase of the design thinking process. In the Empathize phase, social media platforms can be leveraged to gain insights into the thoughts and feelings of your target customers, allowing for a deeper understanding of their needs and challenges. During the Define stage, various analysis tools can be utilized to sift through data, helping to distill a well-defined problem statement that accurately captures the core issue.  In the Ideate phase, platforms like Zoom facilitate brainstorming meetings, enabling teams to collaborate effectively regardless of their geographical locations. Additionally, generative AI can be employed to produce a wide array of potential solutions, pushing the boundaries of creativity and innovation. When moving to the Prototype stage, an array of design tools can be used to craft UX/UI designs, allowing for the tangible representation of concepts and ideas. Finally, in the Test stage, various online channels offer a direct pathway to engage with target customers, providing opportunities to test prototypes and gather feedback through online surveys.",
+        "criteria": " "
+    },
+    {
+        "question": "What 4 first factors to consider a chosen solution from Ideate stage?",
+        "answer": "feasibility, viability, desirability, and sustainability",
+        "criteria": "2.5 points for each factor correctly described."
+    },
+    {
+        "question": "How to integrate a digital technology into a solution for a business pain point?",
+        "answer": "During the Ideate stage, it's essential to generate a comprehensive range of solutions, considering both digital and non-digital approaches. At this point, you should evaluate the digital technologies available to you and strive to incorporate these technologies into as many solutions as possible. This proactive integration can significantly enhance the innovation and applicability of your solutions.",
+        "criteria": " "
+    }
+]

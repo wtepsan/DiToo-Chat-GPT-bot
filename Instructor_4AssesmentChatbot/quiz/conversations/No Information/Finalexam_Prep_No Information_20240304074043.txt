@@ -1,0 +1,10 @@
+Question: Define a Business Pain Point and provide an example.
+Answer: Hello
+Evaluation: Marks: 0/10
+
+Feedback: The response provided does not address the question asked at all. It is important to ensure to understand the question and provide relevant information in your response. Please try to define what a Business Pain Point is as well as provide a specific example to illustrate your understanding.
+
+Question: What are the five stages of Design Thinking?
+Answer: Empathize, Ideate, Define, Prototype, Test
+Evaluation: I would give this response 9 out of 10. The student has correctly identified all the five stages of Design Thinking but they are not in the correct order. The correct order is Empathize, Define, Ideate, Prototype, Test. Good job on remembering the stages, just need to work on the sequence.
+

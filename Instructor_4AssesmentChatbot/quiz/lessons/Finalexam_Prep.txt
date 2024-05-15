@@ -1,0 +1,67 @@
+[
+    {
+        "question": "List all 7 chapters of the course 888212",
+        "answer": "Introduction, Digital tools for money problems and tasks, Digital tools for time, Digital tools for teamwork management, Digital tools for managing customers, Digital tools for marketing, Designing digital tools",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Introduction",
+        "answer": "Six-step problem-solving process, digital data and digital tools, importance of digital tools, machine learning, data-driven society",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Digital tools for money problems and tasks",
+        "answer": "Tabular data, using digital tools to solve budget problems, using digital tools to solve tax problems, using digital tools to solve interest problems",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Digital tools for marketing",
+        "answer": "Marketing 5.0, technologies for Marketing 5.0, Marketing 6.0, technologies for Marketing 6.0, and the application of Generative AI in Marketing",
+        "criteria": " "
+    },
+    {
+        "question": "What is prompt and preprompt in ChatGPT, and why is it important?",
+        "answer": "A prompt is essentially the input or instruction you give to the chatbot. A preprompt is information, instructions, or context provided before the main prompt that helps guide the generation or response process.",
+        "criteria": " "
+    },
+    {
+        "question": "List the 5A's in marketing 5.0 and explain how to use ChatGPT in Marketing 5.0 for one of the A's?",
+        "answer": "Aware, Appeal, Ask, Act, Advocate. An example is helping with 'Ask' by creating a chatbot to answer customer's questions.",
+        "criteria": " "
+    },
+    {
+        "question": "Digital tools for time",
+        "answer": "Methods for dealing with time management",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Digital tools for time management",
+        "answer": "Methods for dealing with time management, such as the 80:20 rule",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Digital tools for team management",
+        "answer": "The 6Cs of successful team management",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Digital tools for managing customers",
+        "answer": "The basic meaning of CRM, types of CRM, and how to use ChatGPT for customers",
+        "criteria": " "
+    },
+    {
+        "question": "Explain what you have learnt in Designing a digital tool",
+        "answer": "Create a digital tool by using a 6-stage problem-solving process to solve a business pain point.",
+        "criteria": " "
+    },
+    {
+        "question": "Explain each stage of design thinking.",
+        "answer": "Empathize: Understand the need of customers, Define: Make a clear problem statement, Ideate: Generate as many solutions as possible, Prototype: Create a sample of the solution, Test: Test the prototype to find improvements.",
+        "criteria": " "
+    },
+    {
+        "question": "What content from the class do you think you can learn to apply in your future?",
+        "answer": "Give them 10 points for any answer.",
+        "criteria": " "
+    }
+]

@@ -1,0 +1,6 @@
+Question: List 6 steps of problem-solving
+Answer: Solve Problem
+Evaluation: Marks: 1/10
+
+Feedback: Your response does not meet the requirements of the exercise. The question asks for a list of six steps in the problem-solving process. Your answer "Solve Problem" appears to be a overall goal but does not not explain the steps required to achieve it. In future responses, ensure you read the question thoroughly and provide in-depth and detailed answers.
+

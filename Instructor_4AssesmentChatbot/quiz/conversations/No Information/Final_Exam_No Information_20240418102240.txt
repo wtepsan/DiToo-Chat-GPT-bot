@@ -1,0 +1,6 @@
+Question: List 6 steps of problem-solving
+Answer: Djbsns
+Evaluation: Marks: 0/10
+
+Feedback: Your response is not relevant to the question asked. The question asked for six steps of problem solving. The response should detail each step, per the correct answer. Your response does not provide any of that information. Please try to carefully read the question and respond with appropriate and related information.
+
